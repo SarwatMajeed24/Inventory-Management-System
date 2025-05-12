@@ -1,0 +1,2 @@
+class DuplicateProductIDError(Exception):
+    pass
