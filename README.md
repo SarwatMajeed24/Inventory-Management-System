@@ -25,65 +25,8 @@ This is a web-based Inventory Management System built with [Streamlit](https://s
 
 ---
 
-
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-Install dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-If you don't have requirements.txt, use:
-
-bash
-Copy
-Edit
-pip install streamlit
-Run the app
-
-bash
-Copy
-Edit
-streamlit run app.py
-🧪 Testing & Type Checking
-To check type safety with MyPy:
-
-bash
-Copy
-Edit
-mypy app.py models/
-💾 Saving & Loading Data
-Default file path for saving and loading inventory is data/main.json.
-
-You can change the file name in the Save/Load section of the UI.
-
 🧑‍💻 Author
 Developed by Sarwat Majeed
-Feel free to contribute or fork the project!
-
-📜 License
-This project is open-source under the MIT License.
-
-yaml
-Copy
-Edit
-
----
-
-### 📎 Next Steps (Optional Enhancements)
-
-- Add product search/filtering
-- Export inventory to CSV or Excel
-- User login system for role-based access
-- Switch to a database (SQLite/PostgreSQL) for larger-scale usage
-
----
-
-Let me know if you'd like a `requirements.txt` generated too, or a sample dataset for testing!
 
 
 
